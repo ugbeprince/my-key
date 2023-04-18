@@ -1,0 +1,101 @@
+body,html{ 
+    background-color: brown;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.topnav {
+    background-color: red;
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 14px 16px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.topnav a:hover{
+    background-color: yellow;
+    color:black;
+}
+section.hero-image{
+    background: linear-gradient( rgba(5, 8, 197,.3), rgba(12, 5, 206, 0.1)), url(./image/a337739472_593413625806813_8544936424308762539_n.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+}
+div.hero-text{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: red;
+}
+div.hero-text h1{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+span{
+    color: blue;
+}
+button.hero-button{
+    background-color: brown;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+button.hero-button:hover{
+    background-color: black;
+}
+.description{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.tagline{
+    text-align: justify;
+}
+.row h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.columu h3{
+    text-align: center;
+}
+div.columu{
+    float: left;
+    width: 33%;
+    overflow: hidden;
+}
+div.columu img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color: red;
+    /* overflow: hidden; */
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10rem;
+    padding: 2rem;
+    max-width: 100%;
+}
+.com{
+    background-image: url(image/web-development-gffab4fbc5_640.png);
+    tab-size: 50%;
+}
+.out{
+    background-color: gray
+}
+@media screen and (min-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
