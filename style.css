@@ -95,7 +95,12 @@ footer{
     background-color: gray
 }
 @media screen and (min-width: 600px) {
-    body {
-      background-color: lightgreen;
+    .topnav a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        padding: 9px 10px;
+        display: inline-block;
+        text-transform: capitalize;
     }
   }
